@@ -1,40 +1,42 @@
 import Image from "next/image";
-export default function Home() {
+
+export default function Hero() {
   return (
-    <div className="w-full bg-[#FFFFFF] flex items-center justify-center">
-      <div className="flex items-center justify-between text-[#000000] font-bold w-full h-auto py-10 md:flex-row flex-col">
-        <div className="flex flex-col justify-end">
-          <h1 className="text-[#000000] font-bold text-5xl px-4 py-2 ml-5">
+    <div className="w-full bg-[#FFFFFF] flex items-center justify-center px-4 md:px-8 lg:px-16">
+      <div className="flex flex-col md:flex-row items-center justify-between text-[#000000] font-bold w-full h-auto py-10">
+        <div className="flex flex-col justify-center items-center md:items-start w-full md:w-1/2 text-center md:text-left">
+          <h1 className="text-[#000000] font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-4 py-2">
             Learn new skills
           </h1>
-          <h2 className="text-[#000000] font-bold mt-2 text-5xl px-4 ml-5">
+          <h2 className="text-[#000000] font-bold mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-4">
             online with ease
           </h2>
-          <div className="ml-5 mt-8">
-            <p className="font-normal text-xl text-[#000000] px-4 leading-7 whitespace-nowrap">
-              Discover a wide range of courses covering a veriety of{" "}
+          <div className="mt-4 px-4 md:px-0">
+            <p className="font-normal text-lg sm:text-xl md:text-xl text-[#000000] leading-6 md:leading-7">
+              Discover a wide range of courses covering a variety of
             </p>
-            <p className="font-normal text-xl text-[#000000] mt-2 px-4 leading-7">
+            <p className="font-normal text-lg sm:text-xl md:text-xl text-[#000000] mt-2 leading-6 md:leading-7">
               subjects, taught by expert instructors.
             </p>
           </div>
-          <div className="mt-6 flex space-x-4">
-            <button className="text-[#FFFFFF] bg-[#000000] px-6 py-4 mt-7 ml-7 mb-4 rounded-lg">
+          <div className="mt-6 flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 px-4 md:px-0">
+            <button className="text-[#FFFFFF] bg-[#000000] px-6 py-3 rounded-lg md:px-8 md:py-4">
               Start learning now
             </button>
-            <button className="text-[#000000] bg-[#FFFFFF] px-4 py-4 mb-4 ml-7 mt-7 rounded-lg border border-black">
+            <button className="text-[#000000] bg-[#FFFFFF] px-6 py-3 rounded-lg border border-black md:px-8 md:py-4">
               Explore Courses
             </button>
           </div>
         </div>
 
-        <div className="w-1/2 flex flex-row justify-end items-center mt-1 mb-36">
+        <div className="w-full md:w-[640px] flex justify-center items-center mt-8 md:mt-0">
           <Image
             src="/images/image-2.jpeg"
             alt="girl learning"
-            width={600}
+            width={640}
             height={400}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg object-cover"
+            priority={true}
           />
         </div>
       </div>

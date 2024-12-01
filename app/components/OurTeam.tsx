@@ -14,7 +14,6 @@ const OurTeam = () => {
         </p>
       </div>
       <div className="container mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-        {/* team member-1 */}
         <div className="flex flex-col items-center p-6">
           <div className="w-24 h-24 mb-4">
             <Image
@@ -44,7 +43,6 @@ const OurTeam = () => {
           </div>
         </div>
 
-        {/*  team member-2 */}
         <div className="flex flex-col items-center p-6">
           <div className="w-24 h-24 mb-4">
             <Image
@@ -73,7 +71,6 @@ const OurTeam = () => {
           </div>
         </div>
 
-        {/* team Member-3 */}
         <div className="flex flex-col items-center p-6">
           <div className="w-24 h-24 mb-4">
             <Image
@@ -102,7 +99,6 @@ const OurTeam = () => {
           </div>
         </div>
 
-        {/* team Member-4 */}
         <div className="flex flex-col items-center p-6">
           <div className="w-24 h-24 mb-4">
             <Image
@@ -131,7 +127,6 @@ const OurTeam = () => {
           </div>
         </div>
 
-        {/* team Member-5 */}
         <div className="flex flex-col items-center p-6">
           <div className="w-24 h-24 mb-4">
             <Image
@@ -160,7 +155,6 @@ const OurTeam = () => {
           </div>
         </div>
 
-        {/* team Member-6 */}
         <div className="flex flex-col items-center p-6">
           <div className="w-24 h-24 mb-4">
             <Image

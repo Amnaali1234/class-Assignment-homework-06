@@ -11,116 +11,104 @@ export default function CustomerTestimonials() {
   return (
     <section
       id="Customer Testimonial"
-      className="h-full w[1280px] bg-[#F7F7F7] py-[112px] flex flex-col gap-[80px] items-start"
+      className="h-full bg-[#F7F7F7] py-[112px] flex flex-col gap-[80px] items-start"
     >
-      <div className="w-[560px] h-[109px] flex flex-col gap-[24px] ml-[64px]">
-        <h2 className="leading-[57.6px] font-bold text-[48px]">
+      <div className="w-full max-w-[1280px] px-4 flex flex-col gap-[24px]">
+        <h2 className="text-[48px] font-bold leading-[57.6px] text-left ml-14">
           Customer testimonials
         </h2>
-        <p className="leading-[27px] text-[18px]">
+        <p className="text-[18px] leading-[27px] text-left ml-14">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
-      <div className="xl:w-[1152px] w-[768px]  h-[417.89px] flex flex-col gap-[48px] mx-[64px]">
-        <div className="h-[321.89px] flex flex-row gap-[32px]">
-          {/* card 1 */}
-          <div className="h-[321.89px] w-[362.27px]  p-[32px] flex flex-col gap-[24px] border-solid border-black border-[1px]">
-            <div className="w-[116px] h-[18.89px] flex flex-row gap-[4px]">
+      <div className="w-full max-w-[1280px] px-4 flex flex-col gap-[48px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[32px]">
+          <div className="h-[auto] w-full p-[16px] sm:p-[32px] flex flex-col gap-[24px] border-[1px] border-solid border-black ml-10">
+            <div className="w-full flex gap-[4px]">
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
             </div>
-            <div className="w-[298.67px] h-[215px] flex flex-col gap-[24px]">
+            <div className="w-full flex flex-col gap-[24px]">
               <p className="text-[18px] leading-[27px]">
                 &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare.&quot;
               </p>
-              <div className="w-[254px] h-[56px] flex flex-row gap-[20px] ">
+              <div className="w-full flex gap-[20px]">
                 <Image
-                  className="w-[56px] h-[56px]"
+                  className="w-[56px] h-[56px] rounded-full"
                   src={customerImg1}
                   alt="customer Image-1"
                 />
-                <div className="w-[178px] h-[48px] my-[4px]">
-                  <p className="text-[16px] h-[24px] leading-[24px] font-semibold">
-                    James Nduku
-                  </p>
-                  <p className="text-[16px] h-[24px] leading-[24px]">
-                    Software Developer
-                  </p>
+                <div className="w-full">
+                  <p className="text-[16px] font-semibold">James Nduku</p>
+                  <p className="text-[16px]">Software Developer</p>
                 </div>
               </div>
             </div>
           </div>
-          {/* card 2 */}
-          <div className="h-[321.89px] w-[362.27px]  p-[32px] flex flex-col gap-[24px] border-solid border-black border-[1px]">
-            <div className="w-[116px] h-[18.89px] flex flex-row gap-[4px]">
+
+          <div className="h-[auto] w-full p-[16px] sm:p-[32px] flex flex-col gap-[24px] border-[1px] border-solid border-black ml-8">
+            <div className="w-full flex gap-[4px]">
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
             </div>
-            <div className="w-[298.67px] h-[215px] flex flex-col gap-[24px]">
+            <div className="w-full flex flex-col gap-[24px]">
               <p className="text-[18px] leading-[27px]">
                 &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare.&quot;
               </p>
-              <div className="w-[254px] h-[56px] flex flex-row gap-[20px] ">
+              <div className="w-full flex gap-[20px]">
                 <Image
-                  className="w-[56px] h-[56px]"
+                  className="w-[56px] h-[56px] rounded-full"
                   src={cutomerImg2}
                   alt="customer Image-2"
                 />
-                <div className="w-[178px] h-[48px] my-[4px]">
-                  <p className="text-[16px] h-[24px] leading-[24px] font-semibold">
-                    Erick Kipkemboi
-                  </p>
-                  <p className="text-[16px] h-[24px] leading-[24px]">
-                    Scrum Master
-                  </p>
+                <div className="w-full">
+                  <p className="text-[16px] font-semibold">Erick Kipkemboi</p>
+                  <p className="text-[16px]">Scrum Master</p>
                 </div>
               </div>
             </div>
           </div>
-          {/* card 3 */}
-          <div className="h-[321.89px] w-[362.27px]  p-[32px] hidden  xl:flex flex-col gap-[24px] border-solid border-black border-[1px]">
-            <div className="w-[116px] h-[18.89px] flex flex-row gap-[4px]">
+
+          <div className="h-[auto] w-full p-[16px] sm:p-[32px] flex flex-col gap-[24px] border-[1px] border-solid border-black xl:flex ml-8">
+            <div className="w-full flex gap-[4px]">
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
               <Image className="w-[20px]" src={starIcon} alt="star icon" />
             </div>
-            <div className="w-[298.67px] h-[215px] flex flex-col gap-[24px]">
+            <div className="w-full flex flex-col gap-[24px]">
               <p className="text-[18px] leading-[27px]">
                 &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare.&quot;
               </p>
-              <div className="w-[254px] h-[56px] flex flex-row gap-[20px] ">
+              <div className="w-full flex gap-[20px]">
                 <Image
-                  className="w-[56px] h-[56px]"
+                  className="w-[56px] h-[56px] rounded-full"
                   src={customerImg3}
                   alt="customer Image-3"
                 />
-                <div className="w-[178px] h-[48px] my-[4px]">
-                  <p className="text-[16px] h-[24px] leading-[24px] font-semibold">
-                    Stephen Kerubo
-                  </p>
-                  <p className="text-[16px] h-[24px] leading-[24px]">
-                    UI/UX Designer
-                  </p>
+                <div className="w-full">
+                  <p className="text-[16px] font-semibold">Stephen Kerubo</p>
+                  <p className="text-[16px]">UI/UX Designer</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="h-[48px] xl:w-[1152px] w-[760px] flex justify-between">
+
+        <div className="h-[48px] w-full flex justify-between items-center mt-8">
           <div className="w-[72px] h-[8px] flex gap-[8px] my-5">
             <div className="rounded-full h-2 w-2 bg-black"></div>
             <div className="rounded-full h-2 w-2 bg-[#8D8D8D]"></div>
@@ -130,10 +118,10 @@ export default function CustomerTestimonials() {
           </div>
           <div className="w-[111px] h-[48px] flex gap-[15px]">
             <button className="w-12 h-12">
-              <Image src={rightArrow} alt="arrow" />
+              <Image src={rightArrow} alt="right arrow" />
             </button>
             <button className="w-12 h-12">
-              <Image src={leftArrow} alt="arrow" />
+              <Image src={leftArrow} alt="left arrow" />
             </button>
           </div>
         </div>

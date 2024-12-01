@@ -4,34 +4,26 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="w[1280px] h-[54x] bg-[#F7F7F7]">
-      <div
-        className="px-[62px] mr-[64x] flex sm:flex-row flex-col bg-[#F7F7F7] h-[54x] sm:justify-between justify-between items-center sm:px-8 md:px-16 lg:px-24 mb-[16px]
-"
-      >
-        <div className="flex space-x-6 text-xl font-medium">
-          <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-lg font-medium text-center space-x-2">
-            <span className=" ml-10">Phone Number:956 742 455 678 </span>
-          </div>
+    <header className="bg-[#F7F7F7]">
+      <div className="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 md:px-16 lg:px-24 py-2">
+        <div className="flex flex-col sm:flex-row items-center sm:space-x-6 text-center sm:text-left text-[#000000] text-sm sm:text-base">
+          <span className="block sm:inline">Phone: 956-742-455-678</span>
           <span className="hidden sm:block">|</span>
-          <span> Email:info@addsgnr.com</span>
+          <span className="block sm:inline">Email: info@addsgnr.com</span>
         </div>
+
         <div className="flex space-x-4 mt-2 sm:mt-0">
-          <Link href="https://facebook.com" target="-blank">
-            {" "}
-            <FaFacebook size={24} />
+          <Link href="https://facebook.com" target="_blank">
+            <FaFacebook size={20} className="text-[#000000]" />
           </Link>
-          <Link href="https://instagram.com" target="-blank">
-            {" "}
-            <FaInstagram size={24} />
+          <Link href="https://instagram.com" target="_blank">
+            <FaInstagram size={20} className="text-[#000000]" />
           </Link>
-          <Link href="https://twitter.com" target="-blank">
-            {" "}
-            <FaTwitter size={24} />
+          <Link href="https://twitter.com" target="_blank">
+            <FaTwitter size={20} className="text-[#000000]" />
           </Link>
-          <Link href="https://linkedin.com" target="-blank">
-            {" "}
-            <FaLinkedin size={24} />
+          <Link href="https://linkedin.com" target="_blank">
+            <FaLinkedin size={20} className="text-[#000000]" />
           </Link>
         </div>
       </div>
