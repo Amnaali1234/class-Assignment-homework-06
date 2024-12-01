@@ -8,7 +8,6 @@ import OurTeam from "./components/OurTeam";
 import Customer from "./components/Customer";
 import LogoSection from "./components/LogoSection";
 import Footer from "../app/components/Footer";
-import Link from "next/link";
 
 export default function Home() {
   return (
